@@ -21,8 +21,8 @@ def jwt_token_required(func):
     def decorated_wraper(*arg , **kwargs):
         token = None
         #f JWT token prsent in the header 
-        if 'x-access-token' in request.headers:
-            token =  request.headers['x-access-token']
+        if 'Authorization' in request.headers:
+            token =  request.headers['Authorization']
             #print(token)
         if not token:
             return jsonify({"Error"  : "The JWT Token is missing...."})
