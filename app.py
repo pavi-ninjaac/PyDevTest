@@ -1,5 +1,6 @@
 from flask import Flask , jsonify , Response
 import json
+#import the app from the __init__.py from core directory
 from core import app
 
 # import all the routers from the routes file in core directory
