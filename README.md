@@ -86,7 +86,11 @@ First I need to set up the environment to get started.
               }
     Body :    {}  
 ```
-![Screenshot (351)](https://user-images.githubusercontent.com/51699297/115988400-30c99100-a5d7-11eb-9899-9f03bef428e6.png)
+
+
+![Screenshot (351)](https://user-images.githubusercontent.com/51699297/115988890-34f6ae00-a5d9-11eb-867b-ebc5245c0222.png)
+
+
 
 ```
     4.GET Single Template
@@ -101,7 +105,11 @@ First I need to set up the environment to get started.
               }
 Body :    {} 
 ```
-![Screenshot (352)](https://user-images.githubusercontent.com/51699297/115988427-5191e680-a5d7-11eb-9191-6b59d0aebfb8.png)
+
+
+
+![Screenshot (352)](https://user-images.githubusercontent.com/51699297/115988893-37f19e80-a5d9-11eb-9688-d9cd699b879d.png)
+
 
 
 ``` 
@@ -122,7 +130,9 @@ Body :    {}
 }   
 ```
 
-![Screenshot (353)](https://user-images.githubusercontent.com/51699297/115988445-679fa700-a5d7-11eb-9cb0-a746c61ff6c5.png)
+
+![Screenshot (353)](https://user-images.githubusercontent.com/51699297/115988894-3922cb80-a5d9-11eb-8b4d-7b872d95e092.png)
+
 
 
 ``` 
@@ -139,8 +149,5 @@ Body :    {}
     Body :    {}  
 ```
 
-![Screenshot (354)](https://user-images.githubusercontent.com/51699297/115988471-87cf6600-a5d7-11eb-8b3c-2e13f1be7581.png)
 
-
-
-
+![Screenshot (354)](https://user-images.githubusercontent.com/51699297/115988896-39bb6200-a5d9-11eb-98a4-68fd64a1f8dd.png)
