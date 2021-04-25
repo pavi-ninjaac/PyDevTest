@@ -35,7 +35,8 @@ First I need to set up the environment to get started.
 9) datetime
 
 # Results:
-```1.Register
+```
+    1.Register
     
     URL : localhost:5000/register
     Method : POST
@@ -48,9 +49,16 @@ First I need to set up the environment to get started.
                 last_name : '123456'
                 email : 'lead_test@subi.com',
                 password : '123456'
-              }```
+              }
+``` 
+             
+              
+              
+![Screenshot (348)](https://user-images.githubusercontent.com/51699297/115988209-2e1a6c00-a5d6-11eb-864d-54570e0a3a59.png)
 
-``` 2 Login
+
+``` 
+    2) Login
 
     URL : localhost:5000/login
     Method : POST
@@ -61,9 +69,12 @@ First I need to set up the environment to get started.
     Body :    {
                 email : 'lead_test@subi.com',
                 password : '123456'
-              }  ```
+              } 
+```
+![Screenshot (350)](https://user-images.githubusercontent.com/51699297/115988305-ada83b00-a5d6-11eb-9495-0f04f45ce856.png)
 
-``` 3.Get All Template
+```
+    3.Get All Template
 
     URL : locahost:5000/template
     
@@ -73,9 +84,12 @@ First I need to set up the environment to get started.
                 'Accept': 'application/json',
                 'Content-Type': 'application/json',          
               }
-    Body :    {}  ```
+    Body :    {}  
+```
+![Screenshot (351)](https://user-images.githubusercontent.com/51699297/115988400-30c99100-a5d7-11eb-9899-9f03bef428e6.png)
 
-``` 4.GET Single Template
+```
+    4.GET Single Template
 
     URL : locahost:5000/template/<template_id>
 
@@ -85,9 +99,13 @@ First I need to set up the environment to get started.
                 'Accept': 'application/json',
                 'Content-Type': 'application/json',          
               }
-Body :    {} ```
+Body :    {} 
+```
+![Screenshot (352)](https://user-images.githubusercontent.com/51699297/115988427-5191e680-a5d7-11eb-9191-6b59d0aebfb8.png)
 
-``` 5.Update Single Template
+
+``` 
+    5.Update Single Template
 
     URL : locahost:5000/template/<template_id>
     
@@ -101,10 +119,14 @@ Body :    {} ```
                 'template_name': ' ',
                 'subject': ' ',
                 'body': ' ',
-}   ```
+}   
+```
+
+![Screenshot (353)](https://user-images.githubusercontent.com/51699297/115988445-679fa700-a5d7-11eb-9cb0-a746c61ff6c5.png)
 
 
-``` 6..DELETE Single Template
+``` 
+    6..DELETE Single Template
 
     URL : locahost:5000/template/<template_id>
 
@@ -114,7 +136,11 @@ Body :    {} ```
                 'Accept': 'application/json',
                 'Content-Type': 'application/json',          
               }
-    Body :    {}  ```
+    Body :    {}  
+```
+
+![Screenshot (354)](https://user-images.githubusercontent.com/51699297/115988471-87cf6600-a5d7-11eb-8b3c-2e13f1be7581.png)
+
 
 
 
