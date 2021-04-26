@@ -87,10 +87,8 @@ First I need to set up the environment to get started.
     Body :    {}  
 ```
 
-
-
-![Screenshot (351)](https://user-images.githubusercontent.com/51699297/115988890-34f6ae00-a5d9-11eb-867b-ebc5245c0222.png)
-
+ 
+![Screenshot (351)](https://user-images.githubusercontent.com/51699297/116023849-a16dbd80-a66a-11eb-81c0-a851b23df217.png)
 
 
 ```
@@ -108,8 +106,8 @@ Body :    {}
 ```
 
 
-
-![Screenshot (352)](https://user-images.githubusercontent.com/51699297/115988893-37f19e80-a5d9-11eb-9688-d9cd699b879d.png)
+c
+![Screenshot (352)](https://user-images.githubusercontent.com/51699297/116023884-b8acab00-a66a-11eb-8ac7-6be9cc0b4798.png)
 
 
 
