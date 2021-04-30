@@ -54,7 +54,8 @@ First I need to set up the environment to get started.
              
               
               
-![Screenshot (348)](https://user-images.githubusercontent.com/51699297/115988209-2e1a6c00-a5d6-11eb-864d-54570e0a3a59.png)
+![Screenshot (24)](https://user-images.githubusercontent.com/51699297/116748995-e6547400-aa1d-11eb-80eb-4d1e65479861.png)
+
 
 
 ``` 
@@ -71,10 +72,37 @@ First I need to set up the environment to get started.
                 password : '123456'
               } 
 ```
-![Screenshot (350)](https://user-images.githubusercontent.com/51699297/115988305-ada83b00-a5d6-11eb-9495-0f04f45ce856.png)
+![Screenshot (25)](https://user-images.githubusercontent.com/51699297/116749020-f3716300-aa1d-11eb-838e-afd9ee9728f9.png)
+
 
 ```
-    3.Get All Template
+    3)Insert new Template
+
+    URL : locahost:5000/template
+
+    Method : POST
+    Headers : {
+                'Authorization': 'Bearer ' + <access_token from login step>,
+                'Accept': 'application/json',
+                'Content-Type': 'application/json',          
+              }
+    Body :    {
+                'template_name': ' ',
+                'subject': ' ',
+                'body': ' ',
+                     } 
+```
+Header formation
+![Screenshot (27)](https://user-images.githubusercontent.com/51699297/116749120-1865d600-aa1e-11eb-8965-c6f0a0f9fabe.png)
+
+
+body
+![Screenshot (29)](https://user-images.githubusercontent.com/51699297/116749167-27e51f00-aa1e-11eb-8bd1-32c6919b7567.png)
+
+
+
+```
+    4.Get All Template
 
     URL : locahost:5000/template
     
@@ -88,11 +116,10 @@ First I need to set up the environment to get started.
 ```
 
  
-![Screenshot (351)](https://user-images.githubusercontent.com/51699297/116023849-a16dbd80-a66a-11eb-81c0-a851b23df217.png)
-
+![Screenshot (30)](https://user-images.githubusercontent.com/51699297/116749254-4c40fb80-aa1e-11eb-91a1-ba39eb455067.png)
 
 ```
-    4.GET Single Template
+    5.GET Single Template
 
     URL : locahost:5000/template/<template_id>
 
@@ -107,12 +134,12 @@ Body :    {}
 
 
 c
-![Screenshot (352)](https://user-images.githubusercontent.com/51699297/116023884-b8acab00-a66a-11eb-8ac7-6be9cc0b4798.png)
+![Screenshot (31)](https://user-images.githubusercontent.com/51699297/116749302-5cf17180-aa1e-11eb-92ef-a8eeeb56510a.png)
 
 
 
 ``` 
-    5.Update Single Template
+    6.Update Single Template
 
     URL : locahost:5000/template/<template_id>
     
@@ -130,12 +157,14 @@ c
 ```
 
 
-![Screenshot (353)](https://user-images.githubusercontent.com/51699297/115988894-3922cb80-a5d9-11eb-8b4d-7b872d95e092.png)
+![Screenshot (32)](https://user-images.githubusercontent.com/51699297/116749342-6da1e780-aa1e-11eb-9858-ff26d5fa72f8.png)
 
+
+![Screenshot (33)](https://user-images.githubusercontent.com/51699297/116749394-7db9c700-aa1e-11eb-8606-348f478d2403.png)
 
 
 ``` 
-    6..DELETE Single Template
+    7.DELETE Single Template
 
     URL : locahost:5000/template/<template_id>
 
@@ -148,6 +177,6 @@ c
     Body :    {}  
 ```
 
-![Screenshot (354)](https://user-images.githubusercontent.com/51699297/115989305-5c4e7a80-a5db-11eb-9c0c-211807d53149.png)
+![Screenshot (34)](https://user-images.githubusercontent.com/51699297/116749411-86aa9880-aa1e-11eb-9e64-a4e80cc08683.png)
 
 
