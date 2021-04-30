@@ -6,8 +6,10 @@ class connect():
     def make_connection(self):
         try:
             
-            client = pymongo.MongoClient("mongodb+srv://paviPOST:<password>@cluster0.knwvi.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+            client = pymongo.MongoClient("mongodb+srv://paviPOST:DBSOFTWAREDEVTEST@cluster0.knwvi.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
             db = client.test #connection to the database
+            """client = pymongo.MongoClient("mongodb+srv://paviPOST:<password>@cluster0.knwvi.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+db = client.test"""
             
         except:
             return jsonify({"message" : "Error......while connecting to the DataBase"})
